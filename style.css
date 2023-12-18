@@ -11,7 +11,7 @@ header {
     padding: 20px;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 97.97%;
     height: auto;
 }
 
@@ -27,7 +27,7 @@ header .navigation {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-right: 20%;
+    margin-right: 40%;
 }
 
 header .navigation ul li {
@@ -63,16 +63,185 @@ header .navigation a:hover {
     text-shadow: 0px 0px 20px #FFF;
 }
 
-header .search {
-    width: 20%;
-}
-
-header .search input {
+header input {
     width: auto;
     height: auto;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    padding: 8px 2px 8px 2px;
+    padding: 8px 12px 8px 12px;
     border-radius: 9px;
+    margin: 0% 3% 0% 2%;
 }
 
+
+/* ################################################################################ */
+
+
+img {
+    width: 100%;
+}
+
+
+/* ################################################################################ */
+
+
+main {
+    padding: 2% 3% 2% 3%;
+}
+
+main h1 {
+    color: #000;
+
+    /* Heading <H2> */
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main p {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+main p b {
+    color: #9D292A;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* ################################################################################ */
+
+
+main .alash-orda .tag-alash-orda {
+    display: flex;
+    justify-content: center;
+}
+
+main .alash-orda .tag-alash-orda img {
+    width: 120px;
+}
+
+
+main .alash-orda .tag-alash-orda h2{
+    color: #000;
+    /* text-align: center; */
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: max-content;
+}
+
+main .alash-orda h3 {
+    color: #9D292A;
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2% 0% 2% 0%;
+}
+
+main .alash-orda p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-indent: 20px;
+}
+
+main .alash-orda ul li {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+main .alash-orda b {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .alash-orda .baspasy {
+    display: flex;
+}
+
+main .alash-orda .baspasy .class2 img{
+    width: 400px;
+}
+
+main .alash-orda .baspasy .class1 {
+    float: left;
+}
+
+main .alash-orda .baspasy .class2 {
+    float: right;
+}
+
+/* ################################################################################ */
+
+
+main .qairatkerleri .tag-qairatkerleri {
+    display: flex;
+    justify-content: center;
+}
+
+main .qairatkerleri .tag-qairatkerleri img {
+    width: 120px;
+}
+
+
+main .qairatkerleri .tag-qairatkerleri h2{
+    color: #000;
+    /* text-align: center; */
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: max-content;
+}
+
+
+/* ################################################################################ */
+
+
+main .photo-gallery .tag-photo-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+main .photo-gallery .tag-photo-gallery img {
+    width: 120px;
+}
+
+
+main .photo-gallery .tag-photo-gallery h2{
+    color: #000;
+    /* text-align: center; */
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: max-content;
+}
