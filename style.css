@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500;600&family=Oswald&family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter&family=Montserrat:wght@500;600&family=Oswald&family=PT+Mono&display=swap');
 
 
 body {
@@ -11,14 +11,17 @@ header {
     padding: 20px;
     justify-content: space-between;
     align-items: center;
-    width: 97.97%;
+    width: auto;
     height: auto;
 }
 
 header .logo {
-    /* margin: 5px 20px 5px 20px; */
-    margin: 0.5% 1% 0.5% 1%;
+    padding: 0.5% 1% 0.5% 1%;
+}
 
+header .logo img {
+    width: 70px;
+    /* margin: 0.5% 1% 0.5% 1%; */
 }
 
 header .navigation {
@@ -389,57 +392,108 @@ main .photo-gallery .tag-photo-gallery h2{
 
 footer {
     background: #151515;
+    /* display: flex; */
+    /* padding: 20px; */
+    /* justify-content: start; */
+    /* align-items: center; */
+    width: auto;
+    height: auto;
+    padding: 0 0 5px 0;
+    margin: 0;
+}
+
+footer .div-footer {
+    /* background: #151515; */
     display: flex;
     padding: 20px;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
-    width: 97.97%;
+    width: auto;
     height: auto;
+    margin: 0;
 }
 
 footer .logo {
-    margin: 0.5% 1% 0.5% 1%;
-
-}
-
-footer .navigation {
-    width: 40%;
-    display: flex;
-    flex-direction: row;
+    padding: 0.5% 1% 0.5% 1%;
     align-items: center;
-    justify-content: space-around;
-    margin-right: 40%;
 }
 
-footer .navigation ul li {
+footer .logo img {
+    width: 70px;
+}
+
+footer .nav {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+
+}
+
+footer .nav ul {
+    width: 30%;
     list-style-type: none;
-}
-
-footer .navigation a {
-    color: #FFF;
-    text-align: center;
-
-    /* nav a */
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    color: #B3B3B3;
+    font-family: Inter;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
-    text-decoration: none;
-    /* transform: 0.2s; */
-    transition: 0.1s;
 }
 
-footer .navigation a:hover {
-    color: #FFF;
-    text-align: center;
-
-    /* nav a */
-    font-family: 'Oswald', sans-serif;
-    font-size: 22px;
+footer .nav ul a {
+    color: #B3B3B3;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
-    text-transform: uppercase;
-    /* text-decoration: underline; */
-    text-shadow: 0px 0px 20px #FFF;
+}
+
+footer .nav h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1% 0%
+}
+
+footer .nav hr {
+    height: 2px;
+    border: 0;
+    background: #4D4D4D;
+}
+
+footer .about hr {
+    margin: 0;
+    background: #4D4D4D;
+    border: 0;
+    height: 1px;
+    width: auto;
+    justify-items: center;
+}
+
+footer .about #about-1 {
+    color: #7B7B7B;
+    text-align: center;
+    /* font-family: Oswald; */
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    margin: 5px 0 1px 0;
+}
+
+footer .about #about-2 {
+    color: #7B7B7B;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1px 0 5px 0;
 }
