@@ -384,3 +384,62 @@ main .photo-gallery .tag-photo-gallery h2{
     line-height: normal;
     max-width: max-content;
 }
+
+/* ========================================================================================= */
+
+footer {
+    background: #151515;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 97.97%;
+    height: auto;
+}
+
+footer .logo {
+    margin: 0.5% 1% 0.5% 1%;
+
+}
+
+footer .navigation {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40%;
+}
+
+footer .navigation ul li {
+    list-style-type: none;
+}
+
+footer .navigation a {
+    color: #FFF;
+    text-align: center;
+
+    /* nav a */
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* transform: 0.2s; */
+    transition: 0.1s;
+}
+
+footer .navigation a:hover {
+    color: #FFF;
+    text-align: center;
+
+    /* nav a */
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    line-height: normal;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    text-shadow: 0px 0px 20px #FFF;
+}
