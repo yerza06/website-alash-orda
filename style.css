@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500;600&family=Oswald&family=PT+Mono&display=swap');
 
 
 body {
@@ -93,7 +93,7 @@ main h1 {
     color: #000;
 
     /* Heading <H2> */
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 600;
@@ -102,7 +102,7 @@ main h1 {
 
 main p {
     color: #000000;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -111,7 +111,7 @@ main p {
 
 main p b {
     color: #9D292A;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -135,7 +135,7 @@ main .alash-orda .tag-alash-orda img {
 main .alash-orda .tag-alash-orda h2{
     color: #000;
     /* text-align: center; */
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 600;
@@ -145,7 +145,7 @@ main .alash-orda .tag-alash-orda h2{
 
 main .alash-orda h3 {
     color: #9D292A;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 600;
@@ -155,7 +155,7 @@ main .alash-orda h3 {
 
 main .alash-orda p {
     color: #000;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -165,7 +165,7 @@ main .alash-orda p {
 
 main .alash-orda ul li {
     color: #000;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -174,7 +174,7 @@ main .alash-orda ul li {
 
 main .alash-orda b {
     color: #000;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -213,7 +213,7 @@ main .qairatkerleri .tag-qairatkerleri img {
 main .qairatkerleri .tag-qairatkerleri h2{
     color: #000;
     /* text-align: center; */
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 600;
@@ -221,6 +221,145 @@ main .qairatkerleri .tag-qairatkerleri h2{
     max-width: max-content;
 }
 
+main .qairatkerleri .conteiner {
+    display: flex;
+    justify-items: stretch;
+    
+}
+
+main .qairatkerleri .conteiner .photo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+}
+
+main .qairatkerleri .conteiner .photo p {
+    text-align: center;
+    text-indent: 0%;
+    width: 350px;
+}
+
+main .msg {
+    padding: 20px 20px;
+    background: #f8f8f8;
+}
+
+main #message {
+    margin: 0 10px;
+    font-family: 'PT Mono', monospace;
+}
+
+main .qairatkerleri .conteiner #message {
+    text-align: left;
+    font-style: italic;
+    font-family: Iosevka Nerd Font;
+}
+
+main .qairatkerleri .conteiner .photo hr {
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+    border: 0;
+}
+
+main .qairatkerleri .conteiner .photo img {
+    width: 350px;
+}
+
+main .qairatkerleri .conteiner .information .title-year {
+    display: flex;
+}
+
+main .qairatkerleri .conteiner .information .title-year h3 {
+    color: #9D292A;
+    font-family: Oswald;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 0px;
+    align-self: end;
+    line-height: 1;
+}
+
+main .qairatkerleri .conteiner .information .title-year h5 {
+    color: #4D4D4D;
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-shrink: 0;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    align-self: end;
+    line-height: 1.2;
+}
+
+main .qairatkerleri .conteiner .information .info p {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-indent: 9px;
+}
+
+main .qairatkerleri .conteiner .information .info b {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+main .qairatkerleri .conteiner .information .info li {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-indent: 9px;
+}
+
+main .qairatkerleri .hr-line {
+    display: flex;
+    margin: 4% 0 4% 0;
+    justify-content: space-between;
+}
+
+main .qairatkerleri .hr-line img {
+    width: 4%;
+}
+
+main .qairatkerleri .hr-line #img-2 {
+    transform: rotate(45deg);
+}
+
+main .qairatkerleri .hr-line #img-3 {
+    transform: rotate(90deg);
+}
+
+main .qairatkerleri .hr-line #img-4 {
+    transform: rotate(135deg);
+}
+
+main .qairatkerleri .hr-line #img-5 {
+    transform: rotate(180deg);
+}
+
+main .qairatkerleri .hr-line #img-6 {
+    transform: rotate(-135deg);
+}
+
+main .qairatkerleri .hr-line #img-7 {
+    transform: rotate(-90deg);
+}
+
+main .qairatkerleri .hr-line #img-8 {
+    transform: rotate(-45deg);
+}
 
 /* ################################################################################ */
 
@@ -238,7 +377,7 @@ main .photo-gallery .tag-photo-gallery img {
 main .photo-gallery .tag-photo-gallery h2{
     color: #000;
     /* text-align: center; */
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 600;
