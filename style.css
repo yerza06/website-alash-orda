@@ -20,7 +20,7 @@ header .logo {
 }
 
 header .logo img {
-    width: 70px;
+    width: 120%;
     /* margin: 0.5% 1% 0.5% 1%; */
 }
 
@@ -43,7 +43,7 @@ header .navigation a {
 
     /* nav a */
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 120%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -59,7 +59,7 @@ header .navigation a:hover {
 
     /* nav a */
     font-family: 'Oswald', sans-serif;
-    font-size: 22px;
+    font-size: 122%;
     line-height: normal;
     text-transform: uppercase;
     /* text-decoration: underline; */
@@ -70,8 +70,8 @@ header input {
     width: auto;
     height: auto;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    padding: 8px 12px 8px 12px;
+    font-size: 120%;
+    padding: 0.6% 2%;
     border-radius: 9px;
     margin: 0% 3% 0% 2%;
 }
@@ -97,7 +97,7 @@ main h1 {
 
     /* Heading <H2> */
     font-family: 'Montserrat', sans-serif;
-    font-size: 96px;
+    font-size: 630%;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -106,7 +106,7 @@ main h1 {
 main p {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 120%;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -115,7 +115,7 @@ main p {
 main p b {
     color: #9D292A;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 110%;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -131,7 +131,7 @@ main .alash-orda .tag-alash-orda {
 }
 
 main .alash-orda .tag-alash-orda img {
-    width: 120px;
+    width: 8%;
 }
 
 
@@ -139,7 +139,7 @@ main .alash-orda .tag-alash-orda h2{
     color: #000;
     /* text-align: center; */
     font-family: 'Montserrat', sans-serif;
-    font-size: 96px;
+    font-size: 600%;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -149,7 +149,7 @@ main .alash-orda .tag-alash-orda h2{
 main .alash-orda h3 {
     color: #9D292A;
     font-family: 'Montserrat', sans-serif;
-    font-size: 96px;
+    font-size: 520%;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -159,7 +159,8 @@ main .alash-orda h3 {
 main .alash-orda p {
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 127%;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -169,7 +170,7 @@ main .alash-orda p {
 main .alash-orda ul li {
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 127%;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -178,7 +179,7 @@ main .alash-orda ul li {
 main .alash-orda b {
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 98%;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -189,7 +190,7 @@ main .alash-orda .baspasy {
 }
 
 main .alash-orda .baspasy .class2 img{
-    width: 400px;
+    width: auto;
 }
 
 main .alash-orda .baspasy .class1 {
@@ -209,7 +210,7 @@ main .qairatkerleri .tag-qairatkerleri {
 }
 
 main .qairatkerleri .tag-qairatkerleri img {
-    width: 120px;
+    width: 8%;
 }
 
 
@@ -217,7 +218,7 @@ main .qairatkerleri .tag-qairatkerleri h2{
     color: #000;
     /* text-align: center; */
     font-family: 'Montserrat', sans-serif;
-    font-size: 96px;
+    font-size: 600%;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -239,16 +240,17 @@ main .qairatkerleri .conteiner .photo {
 main .qairatkerleri .conteiner .photo p {
     text-align: center;
     text-indent: 0%;
-    width: 350px;
+    width: auto;
+    font-size: 120%;
 }
 
 main .msg {
-    padding: 20px 20px;
+    padding: 2%;
     background: #f8f8f8;
 }
 
 main #message {
-    margin: 0 10px;
+    /* margin: 0 10px; */
     font-family: 'PT Mono', monospace;
 }
 
@@ -276,7 +278,7 @@ main .qairatkerleri .conteiner .information .title-year {
 main .qairatkerleri .conteiner .information .title-year h3 {
     color: #9D292A;
     font-family: Oswald;
-    font-size: 48px;
+    font-size: 320%;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -289,7 +291,8 @@ main .qairatkerleri .conteiner .information .title-year h3 {
 main .qairatkerleri .conteiner .information .title-year h5 {
     color: #4D4D4D;
     font-family: Oswald;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 200%;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -303,7 +306,7 @@ main .qairatkerleri .conteiner .information .title-year h5 {
 main .qairatkerleri .conteiner .information .info p {
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 120%;
     font-style: normal;
     font-weight: 500;
     text-indent: 9px;
@@ -312,7 +315,7 @@ main .qairatkerleri .conteiner .information .info p {
 main .qairatkerleri .conteiner .information .info b {
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 110%;
     font-style: normal;
     font-weight: 700;
 }
@@ -320,7 +323,7 @@ main .qairatkerleri .conteiner .information .info b {
 main .qairatkerleri .conteiner .information .info li {
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 120%;
     font-style: normal;
     font-weight: 500;
     text-indent: 9px;
@@ -373,7 +376,7 @@ main .photo-gallery .tag-photo-gallery {
 }
 
 main .photo-gallery .tag-photo-gallery img {
-    width: 120px;
+    width: 8%;
 }
 
 
@@ -381,7 +384,7 @@ main .photo-gallery .tag-photo-gallery h2{
     color: #000;
     /* text-align: center; */
     font-family: 'Montserrat', sans-serif;
-    font-size: 96px;
+    font-size: 600%;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -398,10 +401,10 @@ main .photo-gallery .content-photo-gallery {
 main .photo-gallery .content-photo-gallery .content {
     background: #FDFDFD;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 24px 20px;
+    padding: 1% 1%;
     width: 20%;
     height: 15%;
-    margin: 2% 4px;
+    margin: 2% 1%;
 }
 
 main .photo-gallery .content-photo-gallery .content img {
@@ -429,7 +432,7 @@ footer {
     /* align-items: center; */
     width: auto;
     height: auto;
-    padding: 0 0 5px 0;
+    padding: 0 0 3px 0;
     margin: 0;
 }
 
@@ -446,11 +449,10 @@ footer .div-footer {
 
 footer .logo {
     padding: 0.5% 1% 0.5% 1%;
-    align-items: center;
 }
 
 footer .logo img {
-    width: 70px;
+    width: 100%;
 }
 
 footer .nav {
